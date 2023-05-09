@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Working Details</title>
+</head>
+<body>
+    <header class="text-5xl text-center font-serif bg-black text-white">
+        Working Details
+    </header>
+    <div class="bg-fuchsia-100 h-100">
+    <h1 class="text-3xl px-6 py-6 font-semibold">Natural Language Processing</h1>
+    <div class="text-2xl font-mono">
+    <h1 class="text-2xl px-6">Step 1- Cleaning Data</h1>
+    <p class="px-6 py-4 w-2/3 mb-8 leading-relaxed text-lg text-gray-700">Machine learning data only works with numerical features so we have to convert text data into numerical columns. So we have to preprocess the text and that is called natural language processing.
+
+        In-text preprocess we are cleaning our text by steaming, lemmatization, removing stopwords, removing special symbols and numbers, etc. After cleaning the data we have to feed this text data into a vectorizer which will convert this text data into numerical features.
+        </p>
+        <div class="mx-8 my-84 lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center rounded" alt="hero" src="../static/1.jpg">
+          </div>
+</div>
+
+<div class="font-mono">
+<h1 class="text-2xl px-4 ">Step 2- Lemmatization</h1>
+<p class="px-4 py-4 w-2/3 mb-8 leading-relaxed text-gray-700 text-lg">Many words in natural language have different forms (e.g., "run," "runs," "running"), and treating each form as a separate feature can lead to sparsity and decreased accuracy. Lemmatization can address this issue by reducing all inflected forms of a word to its base form, so that they are treated as the same feature.</p>
+
+</div>
+<div class="text-2xl px-4 font-mono">Step 3- TF-IDF Vectorizer
+    <h1 class="px-6 py-4 text-lg text-gray-700"> 1. Term frequency = (Number of repetition of word in sentence / No of word in sentence )</h1>
+    <h1 class="px-6 py-4 text-lg text-gray-700">2. Inverse Document Frequency = log(No.of sentence/No of sentence containing word) </h1>
+<h1 class="px-6 py-4 text-lg text-gray-700">3. Output Vector Matrix = TF * IDF</h1>
+</div>
+<div class="text-center">
+    <a href="http://127.0.0.1:5000/"><button class="inline-flex text-center text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-slate-400 rounded text-lg alert-warning">Back To Home Page</button></a>
+    
+</div>
+</div>
+</body>
+</html>
